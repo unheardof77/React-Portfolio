@@ -1,4 +1,3 @@
-import React from "react";
 
 interface HeaderProps {
     setPage: (page:string) =>void
@@ -14,9 +13,9 @@ export default function (props:HeaderProps){
                 <h1>Morgan Tolman</h1>
             </section>
             <nav>
-            <a onClick={()=>navClickHandler('Home')}>Home</a>
-            <a onClick={()=>navClickHandler('Projects')}>Projects</a>
-        </nav>
+                <a onClick={()=>navClickHandler('Home')}>Home</a>
+                <a onClick={()=>navClickHandler('Projects')}>Projects</a>
+            </nav>
         </header>
     )
 };
