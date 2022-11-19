@@ -43,7 +43,7 @@ export default function Home() {
                         <img className='rounded-full' src={image} alt='Morgan Tolman' />
                     </section>
                     <section className='md:ml-2 w-full  md:w-5/12'>
-                        <p className='mx-2 text-xl md:m-0'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis minima, error repellat nemo illo fugiat, maiores dolor iste deleniti, itaque aperiam fuga molestias earum. Excepturi recusandae tenetur atque minus.</p>
+                        <p className='mx-2 text-xl md:m-0'>Hello, my name is Morgan Tolman.  I am a current student at University of Arizona.  I will be graduating in december.  As a student, I have learned many new technologies in a short period of time.  This has allowed me to become confident with reading documentation and learning new technologies.</p>
                     </section>
                 </article>
 

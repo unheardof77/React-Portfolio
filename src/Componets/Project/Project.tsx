@@ -9,7 +9,7 @@ interface ProjectProps{
 export default function Project(props:ProjectProps){
 
     return(
-        <a href={props.link} target="_blank" style={{backgroundImage: `url(${props.imageSrc})`, backgroundSize: 'cover'}} className="max-w-sm rounded lg:my-0 my-2 overflow-hidden shadow-lg bg-[rgb(21,41,78)] text-cyan-400 mx-5">
+        <a href={props.link} target="_blank" rel="noreferrer" style={{backgroundImage: `url(${props.imageSrc})`, backgroundSize: 'cover'}} className="max-w-sm rounded lg:my-0 my-2 overflow-hidden shadow-lg bg-[rgb(21,41,78)] text-cyan-400 mx-5">
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 bg-slate-900 bg-opacity-80 p-1">{props.projectTitle}</div>
                     <p className=" bg-slate-900 bg-opacity-80 p-1">{props.projectDescription}</p>

@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# React Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This application is a personal portfolio for me, Morgan Tolman.  This website can help inform people about me and my work.  I created this to showcase some of my projects and allow future employers to directly email me and learn a bit about me.
+[Deployed website](https://unheardof77.github.io/react-portfolio/)
+## Table of Contents 
 
-In the project directory, you can run:
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+- [How to Contribute](#How-to-Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Once you clone the application make sure to run `npm i` to download dependencies.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+After running the command `npm i` type `npm run start` then your default browser should open up to my portfolio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
 
-### `npm run build`
+There were no collaborators.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This application uses the MIT license.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Contribute
 
-### `npm run eject`
+Please no contributions.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tests
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+N/A
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any further questions, concerns, or feedback feel free to email me at morgan.tolman04@gmail.com.  Another way you can contact me is through my [GitHub](https://github.com/unheardof77) account. 
