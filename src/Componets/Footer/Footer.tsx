@@ -5,7 +5,7 @@ import {IconContext} from 'react-icons';
 export default function Footer(){
 
     return(
-        <footer className="flex flex-col bottom-0 items-center w-full bg-slate-900 text-cyan-400">
+        <footer className="flex flex-col mt-24 bottom-0 min-h-fit items-center w-full bg-slate-900 text-cyan-400">
             <h3>Morgan Tolman</h3>
             <section className="flex justify-between w-full">
                 <a href='https://github.com/unheardof77' target='_blank'><img className='p-1 mb-1 ml-3' alt="Github Logo" src={Github} /></a>

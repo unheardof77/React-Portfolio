@@ -9,11 +9,11 @@ function App() {
   const [pageState, setPage] = useState('Home');
   
   return (
-      <>
+      <section className="min-h-[100vh] relative">
         <Header setPage={setPage}/>
         {pageState === 'Home'?<Home/>:<Projects/>}
         <Footer/>
-      </>
+      </section>
   );
 }
 
