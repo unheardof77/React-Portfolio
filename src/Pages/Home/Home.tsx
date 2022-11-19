@@ -11,7 +11,7 @@ export default function Home() {
     const formSubmitHandler = async (event:React.FormEvent<HTMLFormElement>)=>{
         try {
             event.preventDefault();
-            emailjs.sendForm("service_9571myr", "template_geeql87", event.currentTarget, "zZGqbnRDfc_-XUYES");
+            await emailjs.sendForm("service_9571myr", "template_geeql87", event.currentTarget, "zZGqbnRDfc_-XUYES");
             setModal("sent");
             setTimeout(()=>{
                 setModal("none")
