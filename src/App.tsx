@@ -13,7 +13,7 @@ function App() {
       <section className="min-h-[100vh] relative">
         <Header/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/react-portfolio" element={<Home/>}/>
           <Route path="/projects" element={<Projects/>}/>
         </Routes>
         <Footer/>

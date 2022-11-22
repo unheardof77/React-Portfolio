@@ -1,7 +1,7 @@
-import Github from '../../images/GitHub-Mark-Light-32px.png'
+import Github from '../../assets/images/GitHub-Mark-Light-32px.png'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {IconContext} from 'react-icons';
-import resume from './MorganTolmanResume.pdf'
+import resume from '../../assets/files/MorganTolmanResume.pdf'
 
 export default function Footer(){
 

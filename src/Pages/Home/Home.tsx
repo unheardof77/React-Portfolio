@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import image from '../../images/personal.jpg';
+import image from '../../assets/images/personal.jpg';
 import emailjs from 'emailjs-com';
 import SentModal from '../../Componets/Modal/SentModal';
 import FailModal from '../../Componets/Modal/FailModal';

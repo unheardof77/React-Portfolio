@@ -1,10 +1,10 @@
 import Project from "../../Componets/Project/Project";
-import musicWp from "./musicWp.jpg";
-import readMe from "./readme.jpg";
-import tech from "./tech.jpg";
-import generator from "./generator.jpg"
-import weather from "./weather.jpg"
-import team from "./team.jpg"
+import musicWp from "../../assets/images/musicWp.jpg";
+import readMe from "../../assets/images/readme.jpg";
+import tech from "../../assets/images/tech.jpg";
+import generator from "../../assets/images/generator.jpg";
+import weather from "../../assets/images/weather.jpg";
+import team from "../../assets/images/team.jpg";
 
 export default function Projects(){
 

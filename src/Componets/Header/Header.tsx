@@ -9,7 +9,7 @@ export default function Home(){
                 <h1>Full-Stack Web Developer</h1>
             </section>
             <nav className="mr-3">
-                <Link className="btn" to={`/`}>Home</Link>
+                <Link className="btn" to={`/react-portfolio`}>Home</Link>
                 <Link className="btn" to={`/projects`}>Projects</Link>
             </nav>
         </header>
