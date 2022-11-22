@@ -3,18 +3,23 @@ import Footer from "./Componets/Footer/Footer";
 import Projects from "./Pages/Projects/Projects";
 
 import Home from "./Pages/Home/Home";
-import {useState} from 'react';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
-  const [pageState, setPage] = useState('Home');
   
   return (
+    <Router>
       <section className="min-h-[100vh] relative">
-        <Header setPage={setPage}/>
-        {pageState === 'Home'?<Home/>:<Projects/>}
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+        </Routes>
         <Footer/>
       </section>
+    </Router>
   );
-}
+};
 
 export default App;
