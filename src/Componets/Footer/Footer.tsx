@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <div className='flex items-end md:h-32'>
             <footer className="flex flex-col  bottom-0 min-h-fit items-center w-full bg-slate-900 text-cyan-400">
-                <h3>Morgan Tolman</h3>
+                <h3>Morgan Tolman 2022</h3>
                 <section className="flex justify-between w-full my-1">
                     <a href='https://github.com/unheardof77' rel='noreferrer' target='_blank'><img className='p-1 mb-1 ml-3' alt="Github Logo" src={Github} /></a>
                     <a className='btn' href={resume} download>Download My Resume</a>

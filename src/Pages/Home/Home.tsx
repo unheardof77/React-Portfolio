@@ -1,8 +1,11 @@
-import {useState} from 'react';
-import image from '../../assets/images/personal.jpg';
+import { useState } from 'react';
+import Bio from '../../Componets/Bio/Bio';
 import emailjs from 'emailjs-com';
 import SentModal from '../../Componets/Modal/SentModal';
 import FailModal from '../../Componets/Modal/FailModal';
+import EmailForm from '../../Componets/EmailForm/EmailForm';
+import Skills from '../../Componets/Skills/Skills';
+
 
 
 export default function Home() {
@@ -25,58 +28,21 @@ export default function Home() {
         };
     };
 
-    const whatModal = () =>{
+    const whatModal = ():JSX.Element |null =>{
         switch(modal){
-            case "sent": return <SentModal/>
-            case "fail": return <FailModal/>
-            case "none": return <></>
+            case "sent": return <SentModal/>;
+            case "fail": return <FailModal/>;
+            case "none": return null;
         };
     };
 
     return (
         <section className='my-5'>
-            
             <section className='flex flex-col items-center text-cyan-400 text-xl'>
-                <article className=' flex md:flex-row flex-col md:justify-center items-center w-full sm:w-4/6 bg-[rgb(21,41,78)]'>
-                    <section className='flex flex-col items-center w-full md:w-5/12'>
-                        <h2 className='p-1 font-semibold'>Biography</h2>
-                        <img className='rounded-full' src={image} alt='Morgan Tolman' />
-                    </section>
-                    <section className='md:ml-2 w-full  md:w-5/12'>
-                        <p className='mx-2 text-xl md:m-0'>Hello, my name is Morgan Tolman.  I am a current student at University of Arizona.  I will be graduating in december.  As a student, I have learned many new technologies in a short period of time.  This has allowed me to become confident with reading documentation and learning new technologies.</p>
-                    </section>
-                </article>
-
+                <Bio/>
                 <section className='flex md:flex-row flex-col md:justify-center items-center w-full sm:w-4/6 bg-[rgb(21,41,78)]'>
-                    <form className='flex flex-col items-center w-full md:w-5/12 p-3 bg-slate-900 m-3 rounded ' onSubmit={formSubmitHandler}>
-                        {whatModal()}
-                        <h2 className='p-1'>Contact Form</h2>
-                        <input className='m-1 w-3/6 bg-[rgb(21,41,78)]' name='email'  placeholder='Your Email'/>
-                        <input className='m-1 w-3/6 bg-[rgb(21,41,78)]' name='subject' placeholder='Subject' />
-                        <textarea className='m-1 w-3/6 bg-[rgb(21,41,78)]' name='message' placeholder='Your Message' rows={3} />
-                        <button className='btn m-1' type='submit'>Send Email</button>
-                        <article>
-                            <ul>
-                                <li>Email: morgan.tolman04@gmail.com</li>
-                                <li>Phone Number: (480) 721-5211</li>
-                            </ul>
-                        </article>
-                    </form>
-                    <article className='md:ml-2 w-full  md:w-5/12 items-center flex flex-col mb-'>
-                        <h2 className='font-semibold'>Skills</h2>
-                        <ul className='border-t border-t-slate-900'>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Node.js</li>
-                            <li>React</li>
-                            <li>JWT</li>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
-                            <li>Express</li>
-                            <li>Modular routing</li>
-                            <li>MVC file structure</li>
-                        </ul>
-                    </article>
+                    <EmailForm whatModal={whatModal} formSubmitHandler={formSubmitHandler} />
+                    <Skills/>
                 </section>
             </section>
         </section>
