@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.21f60ea4.css",
-    "main.js": "/react-portfolio/static/js/main.7e9a46d5.js",
+    "main.css": "/react-portfolio/static/css/main.4a991725.css",
+    "main.js": "/react-portfolio/static/js/main.d5d176f6.js",
     "static/media/personal.jpg": "/react-portfolio/static/media/personal.b2e67883f6c42cb5a458.jpg",
     "static/media/tech.jpg": "/react-portfolio/static/media/tech.8f1d0cb82f85e245ae59.jpg",
     "static/media/musicWp.jpg": "/react-portfolio/static/media/musicWp.72f5948da899b5017829.jpg",
@@ -11,11 +11,11 @@
     "static/media/weather.jpg": "/react-portfolio/static/media/weather.fad90b8ff05bd523f620.jpg",
     "static/media/MorganTolmanResume.pdf": "/react-portfolio/static/media/MorganTolmanResume.0ae3d37099eb0b65deca.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.21f60ea4.css.map": "/react-portfolio/static/css/main.21f60ea4.css.map",
-    "main.7e9a46d5.js.map": "/react-portfolio/static/js/main.7e9a46d5.js.map"
+    "main.4a991725.css.map": "/react-portfolio/static/css/main.4a991725.css.map",
+    "main.d5d176f6.js.map": "/react-portfolio/static/js/main.d5d176f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.21f60ea4.css",
-    "static/js/main.7e9a46d5.js"
+    "static/css/main.4a991725.css",
+    "static/js/main.d5d176f6.js"
   ]
 }
