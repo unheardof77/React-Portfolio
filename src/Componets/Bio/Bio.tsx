@@ -8,7 +8,7 @@ export default function Bio(){
                 <img className='rounded-full' src={image} alt='Morgan Tolman' />
             </section>
             <section className='md:ml-2 w-full  md:w-5/12'>
-                <p className='mx-2 text-xl md:m-0'>Hello, my name is Morgan Tolman.  I am a graduate of the University of Arizona boot camps.  As a former student, I have learned many new technologies in a short period of time.  My current favorite is React, and Graphql.  Be sure to look at my GitHub for more TypeScript projects.</p>
+                <p className='mx-2 text-xl md:m-0'>Hello, my name is Morgan Tolman.  I am a graduate of the University of Arizona boot camps.  As a former student, I have learned many new technologies in a short period of time.  My current favorite is React, and Graphql.  Be sure to look at my <a target="_blank" href='https://github.com/unheardof77' >GitHub</a> for more projects.</p>
             </section>
         </article>
     )

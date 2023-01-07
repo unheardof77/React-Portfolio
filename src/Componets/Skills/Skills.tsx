@@ -14,8 +14,8 @@ export default function Skills() {
                 <li>MongoDB</li>
                 <li>MySQL</li>
                 <li>Express</li>
-                <li>Modular routing</li>
-                <li>MVC file structure</li>
+                <li>Java</li>
+                <li>SpringBoot</li>
             </ul>
         </article>
     )
